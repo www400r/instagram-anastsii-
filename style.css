@@ -278,88 +278,112 @@ body {
    АДАПТАЦИЯ
 ========================= */
 
-@media (max-width: 600px) {
+.page {
+    min-height: 100vh;
+    overflow: hidden;
+}
 
-    .language {
-        top: 135px;
-        font-size: 17px;
-    }
+/* Язык */
+.language {
+    top: 35px;
+    font-size: 16px;
+}
 
-    .main {
-        top: 220px;
-    }
+/* Основной блок */
+.main {
+    position: absolute;
+    top: 125px;
+    left: 24px;
+    right: 24px;
+}
 
-    .instagram-logo {
-        width: 82px;
-        height: 82px;
-        margin-bottom: 125px;
-    }
+/* Логотип */
+.instagram-logo {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 80px;
+}
 
-    .camera {
-        width: 82px;
-        height: 82px;
-        border-radius: 21px;
-    }
+.camera {
+    width: 72px;
+    height: 72px;
+    border-radius: 19px;
+}
 
-    .camera::before {
-        width: 64px;
-        height: 64px;
-        top: 9px;
-        left: 9px;
-        border-radius: 17px;
-    }
+.camera::before {
+    width: 56px;
+    height: 56px;
+    top: 8px;
+    left: 8px;
+    border-radius: 15px;
+}
 
-    .lens {
-        width: 42px;
-        height: 42px;
-        top: 20px;
-        left: 20px;
-        border-width: 7px;
-    }
+.lens {
+    width: 38px;
+    height: 38px;
+    top: 17px;
+    left: 17px;
+    border-width: 7px;
+}
 
-    .dot {
-        width: 11px;
-        height: 11px;
-        top: 14px;
-        right: 14px;
-    }
+.dot {
+    width: 10px;
+    height: 10px;
+    top: 13px;
+    right: 13px;
+}
 
-    .form {
-        gap: 16px;
-    }
+/* Поля */
+.form {
+    gap: 12px;
+}
 
-    .form input {
-        height: 72px;
-        padding: 0 24px;
-        border-radius: 22px;
-        font-size: 19px;
-    }
+.form input {
+    width: 100%;
+    height: 58px;
 
-    .login {
-        height: 64px;
-        font-size: 22px;
-    }
+    padding: 0 20px;
 
-    .forgot {
-        margin-top: 34px;
-        font-size: 21px;
-    }
+    border-radius: 18px;
+    border-width: 1.5px;
 
-    .create {
-        left: 30px;
-        right: 30px;
-        bottom: 95px;
-        width: calc(100% - 60px);
-        height: 64px;
-        font-size: 20px;
-    }
+    font-size: 16px;
+}
 
-    .meta {
-        bottom: 43px;
-        font-size: 22px;
-    }
+/* Кнопка */
+.login {
+    height: 54px;
+    border-radius: 30px;
+    font-size: 18px;
+}
 
-    .meta span {
-        font-size: 31px;
-    }
+/* Забыли пароль */
+.forgot {
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+/* Создать аккаунт */
+.create {
+    left: 24px;
+    right: 24px;
+    bottom: 58px;
+
+    width: calc(100% - 48px);
+    height: 52px;
+
+    border-radius: 28px;
+    border-width: 1.5px;
+
+    font-size: 17px;
+}
+
+/* Meta */
+.meta {
+    bottom: 20px;
+    font-size: 18px;
+}
+
+.meta span {
+    font-size: 26px;
 }
