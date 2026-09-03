@@ -279,98 +279,122 @@ body {
 ========================= */
 
 .page {
-    min-height: 100vh;
-    overflow: hidden;
+    min-height: 100svh;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Язык */
 .language {
-    top: 35px;
+    position: static;
+    transform: none;
+
+    margin-top: 32px;
+
     font-size: 16px;
 }
 
 /* Основной блок */
 .main {
-    position: absolute;
-    top: 125px;
-    left: 24px;
-    right: 24px;
+    position: static;
+
+    width: 100%;
+    max-width: 500px;
+
+    margin-top: 105px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Логотип */
 .instagram-logo {
-    width: 72px;
-    height: 72px;
-    margin-bottom: 80px;
+    width: 70px;
+    height: 70px;
+
+    margin-bottom: 58px;
 }
 
 .camera {
-    width: 72px;
-    height: 72px;
-    border-radius: 19px;
+    width: 70px;
+    height: 70px;
+    border-radius: 18px;
 }
 
 .camera::before {
-    width: 56px;
-    height: 56px;
+    width: 54px;
+    height: 54px;
+
     top: 8px;
     left: 8px;
-    border-radius: 15px;
+
+    border-radius: 14px;
 }
 
 .lens {
-    width: 38px;
-    height: 38px;
+    width: 36px;
+    height: 36px;
+
     top: 17px;
     left: 17px;
-    border-width: 7px;
+
+    border-width: 6px;
 }
 
 .dot {
-    width: 10px;
-    height: 10px;
+    width: 9px;
+    height: 9px;
+
     top: 13px;
     right: 13px;
 }
 
-/* Поля */
+/* Форма */
 .form {
-    gap: 12px;
+    width: 100%;
+    gap: 11px;
 }
 
 .form input {
     width: 100%;
     height: 58px;
 
-    padding: 0 20px;
+    padding: 0 18px;
 
-    border-radius: 18px;
+    border-radius: 17px;
     border-width: 1.5px;
 
     font-size: 16px;
 }
 
-/* Кнопка */
 .login {
+    width: 100%;
     height: 54px;
-    border-radius: 30px;
+
+    border-radius: 28px;
+
     font-size: 18px;
 }
 
-/* Забыли пароль */
+/* Забыл пароль */
 .forgot {
-    margin-top: 25px;
+    margin-top: 23px;
+
     font-size: 17px;
 }
 
-/* Создать аккаунт */
+/* Нижняя часть */
 .create {
-    left: 24px;
-    right: 24px;
-    bottom: 58px;
+    position: static;
 
-    width: calc(100% - 48px);
-    height: 52px;
+    width: 100%;
+    height: 53px;
+
+    margin-top: auto;
+    margin-bottom: 17px;
 
     border-radius: 28px;
     border-width: 1.5px;
@@ -378,12 +402,17 @@ body {
     font-size: 17px;
 }
 
-/* Meta */
 .meta {
-    bottom: 20px;
+    position: static;
+
+    transform: none;
+
+    margin-bottom: 18px;
+
     font-size: 18px;
 }
 
 .meta span {
     font-size: 26px;
+}
 }
