@@ -28,10 +28,8 @@ body {
 ========================= */
 
 .language {
-    display: flex; 
-    margin-top: -100px;
     position: absolute;
-    
+    top: 238px;
     left: 50%;
 
     transform: translateX(-50%);
@@ -62,20 +60,17 @@ body {
 ========================= */
 
 .instagram-logo {
-
-display: flex;
-margin-top: 1px;
     width: 116px;
     height: 116px;
 
-    
+    margin-bottom: 174px;
 }
 
 .camera {
     position: relative;
 
-    width: 60px;
-    height: 60px;
+    width: 116px;
+    height: 116px;
 
     border-radius: 30px;
 
@@ -286,19 +281,18 @@ margin-top: 1px;
 @media (max-width: 600px) {
 
     .language {
-        padding-top: 120px;
+        top: 135px;
         font-size: 17px;
-        
     }
 
     .main {
-        top: 150px;
+        top: 220px;
     }
 
     .instagram-logo {
         width: 82px;
         height: 82px;
-        margin-bottom: 50px;
+        margin-bottom: 125px;
     }
 
     .camera {
@@ -342,27 +336,26 @@ margin-top: 1px;
     }
 
     .login {
-        margin-top: 25px;
         height: 64px;
         font-size: 22px;
     }
 
     .forgot {
-        margin-top: 14px;
+        margin-top: 34px;
         font-size: 21px;
     }
 
     .create {
         left: 30px;
         right: 30px;
-        bottom: 70px;
+        bottom: 95px;
         width: calc(100% - 60px);
         height: 64px;
         font-size: 20px;
     }
 
     .meta {
-        bottom: 13px;
+        bottom: 43px;
         font-size: 22px;
     }
 
